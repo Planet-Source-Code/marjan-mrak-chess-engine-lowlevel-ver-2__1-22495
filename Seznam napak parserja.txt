@@ -1,0 +1,21 @@
+Attribute VB_Name = "Par_err"
+'seznam statusov:
+'0-vse OK
+'1-zajetje nasprotne figure
+
+
+'Seznam napak parserja:
+
+'1-polje je prazno
+'2-izbrana figura je napaène barve
+'3-zajeta figura je iste barve kot plenilec
+'4-Ciljno polje je isto kot štartno
+'5-nedovoljen premik kmeta
+'6'nedovoljen premik trdnjave
+'7-nedovoljen premik skakaèa
+'8-nedovoljen premik lovca
+'9-nedovoljen premik kraljice
+'10-nedovoljen premik kralja
+'11-kralj bo po potezi v šahu!
+'12-kralj je kljub potezi v šahu!
+'13-rošada ni veè mogoèa!
